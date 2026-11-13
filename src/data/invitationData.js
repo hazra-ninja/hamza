@@ -295,7 +295,8 @@ export const invitationData = {
   // MEDIA ASSET PATHS
   // ----------------------------------------------------------------------------
   media: {
-    audioTrack: "/media/music.m4a",
+    audioTrack: "/media/arabic-wedding-nasheed.mp3",
+    audioTitle: "Barakallahu Lakuma - Islamic Wedding Music",
     introVideo: "/media/film.mp4",
     posterFirst: "/media/film-first.jpg",
     posterLast: "/media/film-last.jpg",

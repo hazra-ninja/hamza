@@ -92,11 +92,11 @@ const Hero = forwardRef(
                 isOpened ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[2cqw]'
               }`}
             >
-              <span className="block text-[10.5cqw] tracking-[-0.02em]">{couple.groom}</span>
+              <span className="block text-[10.5cqw] tracking-[-0.02em]">{couple.bride}</span>
               <i className="block font-pinyon not-italic text-[7cqw] leading-[0.7] my-[1.4cqw] text-rose">
                 &amp;
               </i>
-              <span className="block text-[10.5cqw] tracking-[-0.02em]">{couple.bride}</span>
+              <span className="block text-[10.5cqw] tracking-[-0.02em]">{couple.groom}</span>
             </h1>
 
             <p

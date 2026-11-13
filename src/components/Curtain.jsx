@@ -64,7 +64,7 @@ export default function Curtain({ guestName }) {
           <p className="mb-4 font-familjen text-[16px] opacity-80">
             {salutation}
           </p>
-          <p className="max-w-[13ch] mx-auto font-gloock font-normal text-[clamp(36px,10.4vw,48px)] leading-[1.04]">
+          <p className="max-w-[13ch] mx-auto font-gloock font-normal text-[clamp(30px,10.4vw,48px)] leading-[1.04]">
             {curtain.letterBody}
           </p>
           <p className="mt-6 font-pinyon text-[38px] leading-none text-rose">

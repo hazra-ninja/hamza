@@ -139,7 +139,7 @@ export default function RSVPForm({ defaultGuestName = '', onRSVPSubmitted }) {
     }
 
     ctx.font = '400 150px "Pinyon Script", cursive';
-    ctx.fillText(`${couple.groom} & ${couple.bride}`, W / 2, 900, 960);
+    ctx.fillText(`${couple.bride} & ${couple.groom}`, W / 2, 900, 960);
 
     ctx.font = '400 40px "Familjen Grotesk", sans-serif';
     const metaLines = rsvp.ticketMeta.split('\n');
@@ -151,7 +151,7 @@ export default function RSVPForm({ defaultGuestName = '', onRSVPSubmitted }) {
       if (!blob) return;
       const file = new File([blob], 'our-table.png', { type: 'image/png' });
       if (navigator.canShare && navigator.canShare({ files: [file] })) {
-        navigator.share({ files: [file], title: `${couple.groom} & ${couple.bride}` }).catch(() => {});
+        navigator.share({ files: [file], title: `${couple.bride} & ${couple.groom}` }).catch(() => {});
       } else {
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');

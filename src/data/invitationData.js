@@ -2,9 +2,9 @@
  * ==============================================================================
  * INVITATION CONFIGURATION & CONTENT DATA
  * ==============================================================================
- * Groom's Wedding Invitation: Thameem & Hazra
+ * Wedding Invitation: Hazra & Thameem
  * Date: 04/12/2026 (Friday, 4 December 2026) at 5:00 PM
- * Venue: Keyath Garden Mariyad, Manjeri, Kerala
+ * Venue: K hills resort, Farook
  * ==============================================================================
  */
 
@@ -19,7 +19,7 @@ export const invitationData = {
     // When personalizing via ?g=GuestName:
     personalizedTagline: (guestName) => `Dear ${guestName}, we are getting married`,
     weddingDateText: "Friday, the fourth of December",
-    romanNumeralDate: "04 · XII · MMXXVI",
+    romanNumeralDate: "04 · 12 · 2026",
     closingSalutation: "With love and prayers,",
     bismillah: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
     dua: "بارك الله لكما وبارك عليكما وجمع بينكما في خير",
@@ -29,15 +29,13 @@ export const invitationData = {
   // EVENT & CALENDAR DETAILS
   // ----------------------------------------------------------------------------
   event: {
-    title: "Thameem & Hazra Wedding Reception",
+    title: "Nikkah ceremony",
     startDate: "2026-12-04T17:00:00", // ISO string: 04 Dec 2026, 5:00 PM
     endDate: "2026-12-04T22:30:00",
     timeDisplay: "5 pm",
-    venueName: "Keyath Garden Mariyad",
-    venueAddress: "Keyath Garden Mariyad, Manjeri",
-    venueCoordinates: "11.1219,76.1226",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Keyath+Garden,+Mariyad,+Manjeri,+Kerala&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    parkingNote: "Large parking area and wheelchair accessible entrance available at the venue.",
+    venueName: "K hills resort",
+    venueAddress: "Farook",
+    mapEmbedUrl: "https://maps.google.com/maps?q=Klay+Hills+Resorts+%26+Spa,+Farook&t=&z=15&ie=UTF8&iwloc=&output=embed",
     icsFile: "/wedding.ics",
   },
 
@@ -60,7 +58,7 @@ export const invitationData = {
     defaultSalutation: "Dear family & friends,",
     personalizedSalutation: (guestName) => `Dear ${guestName},`,
     letterBody: "May Allah bless our union with His Mercy. Together with our families, we joyfully invite you to celebrate our wedding with us.",
-    signature: "Thameem & Hazra",
+    signature: "Hazra & Thameem",
     scrollHint: "Scroll to open the curtain",
   },
 
@@ -71,7 +69,7 @@ export const invitationData = {
     sectionLabel: "Seal the date",
     pressHint: "Press and hold the seal",
     sealedSuccessText: "Sealed with love & prayers",
-    metaText: "5 pm · Keyath Garden Mariyad, Manjeri",
+    metaText: "5 pm · K hills resort, Farook",
     calendarButtonText: "Add to calendar",
     // 9 words revealed progressively as the wax seal is held down:
     wordsLine1: ["Friday,", "the", "fourth", "of", "December"],
@@ -93,7 +91,7 @@ export const invitationData = {
       {
         time: "5:00 pm",
         title: "The Reception",
-        desc: "Welcoming Thameem & Hazra beneath the chandelier",
+        desc: "Welcoming Hazra & Thameem beneath the chandelier",
         bg: "bg-car",
       },
       {
@@ -128,8 +126,8 @@ export const invitationData = {
   // ----------------------------------------------------------------------------
   venue: {
     sectionLabel: "The venue",
-    title: "Keyath Garden Mariyad",
-    address: "Mariyad, Manjeri, Malappuram",
+    title: "K hills resort",
+    address: "Farook",
     spotlightHint: "Move your finger to light the venue",
     directionsButtonText: "Directions",
     calendarButtonText: "Add to calendar",
@@ -261,7 +259,7 @@ export const invitationData = {
       later: "We will send you a reminder a week before the wedding.",
     },
     ticketTitle: "Your place at our table",
-    ticketMeta: "Friday, 4 December 2026 · 5 pm\nKeyath Garden Mariyad",
+    ticketMeta: "Friday, 4 December 2026 · 5 pm\nK hills resort, Farook",
     saveTicketButtonText: "Save the ticket to my phone",
     changeReplyButtonText: "Change my reply",
   },
@@ -277,12 +275,12 @@ export const invitationData = {
         a: "The celebration takes place on Friday, 4 December 2026 starting at 5:00 PM.",
       },
       {
-        q: "Where is Keyath Garden Mariyad located?",
-        a: "Keyath Garden is in Mariyad, Manjeri, Malappuram district, Kerala. Directions can be accessed via the Google Maps button above.",
+        q: "Where is K hills resort located?",
+        a: "The nikkah is at K hills resort (Klay Hills Resorts & Spa) in Farook. Directions can be accessed via the Google Maps button above.",
       },
       {
-        q: "Is there parking available at Keyath Garden?",
-        a: "Yes, Keyath Garden Mariyad features a spacious dedicated parking area for guests.",
+        q: "Is there parking available at K hills resort?",
+        a: "Yes, the resort has a dedicated parking area for guests.",
       },
       {
         q: "Is the venue wheelchair accessible?",
@@ -312,7 +310,7 @@ export const invitationData = {
   // ----------------------------------------------------------------------------
   footer: {
     madeWithText: "With blessings & prayers for",
-    agencyName: "Thameem & Hazra",
+    agencyName: "Hazra & Thameem",
     agencyUrl: "#",
     agencyPrompt: " · 04.12.2026",
   },

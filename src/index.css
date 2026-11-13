@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Familjen Grotesk';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/FamiljenGrotesk-normal-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Gloock';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Gloock-normal-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Pinyon Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/PinyonScript-normal-400.woff2') format('woff2');
+}
+
+:root {
+  --ox: #1f0408;
+  --wine: #4a0a13;
+  --car: #8f1020;
+  --rose: #e9c6bf;
+  --ivory: #f7ece8;
+  --ink: #2a0a0f;
+  --d: "Gloock", "Didot", serif;
+  --t: "Familjen Grotesk", "Helvetica Neue", sans-serif;
+  --s: "Pinyon Script", cursive;
+  --col: 25rem;
+  --pad: clamp(20px, 6vw, 30px);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--ox);
+    color: var(--ivory);
+    font-family: var(--t);
+    overflow-x: hidden;
+  }
+}
+
+@keyframes breathe {
+  50% { opacity: 0.3; }
+}
+
+.animate-breathe {
+  animation: breathe 1.1s ease-in-out infinite;
+}
+
+@keyframes thud {
+  40% { transform: scale(0.86); }
+  100% { transform: scale(0.9); }
+}
+
+.animate-thud {
+  animation: thud 0.5s cubic-bezier(0.3, 1.6, 0.5, 1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1f0408;
+}
+::-webkit-scrollbar-thumb {
+  background: #8f1020;
+  border-radius: 3px;
+}
+

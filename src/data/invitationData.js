@@ -15,12 +15,12 @@ export const invitationData = {
   couple: {
     groom: "Thameem",
     bride: "Hazra",
-    tagline: "Together with our families, we are getting married",
+    tagline: "By the grace of Allah and with the blessings of our families, we are getting married",
     // When personalizing via ?g=GuestName:
     personalizedTagline: (guestName) => `Dear ${guestName}, we are getting married`,
     weddingDateText: "Friday, the fourth of December",
     romanNumeralDate: "04 · 12 · 2026",
-    closingSalutation: "With love and prayers,",
+    closingSalutation: "With love,",
     bismillah: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
     dua: "بارك الله لكما وبارك عليكما وجمع بينكما في خير",
   },
@@ -30,9 +30,10 @@ export const invitationData = {
   // ----------------------------------------------------------------------------
   event: {
     title: "Nikkah ceremony",
-    startDate: "2026-12-04T17:00:00", // ISO string: 04 Dec 2026, 5:00 PM
+    startDate: "2026-12-04T18:00:00+05:30",
+    // ISO string: 04 Dec 2026, 5:00 PM
     endDate: "2026-12-04T22:30:00",
-    timeDisplay: "5 pm",
+    timeDisplay: "6:00 PM",
     venueName: "K hills resort",
     venueAddress: "Farook",
     mapEmbedUrl: "https://maps.google.com/maps?q=Klay+Hills+Resorts+%26+Spa,+Farook&t=&z=15&ie=UTF8&iwloc=&output=embed",
@@ -69,11 +70,11 @@ export const invitationData = {
     sectionLabel: "Seal the date",
     pressHint: "Press and hold the seal",
     sealedSuccessText: "Sealed with love & prayers",
-    metaText: "5 pm · K hills resort, Farook",
+    metaText: "6 pm · K hills resort, Farook",
     calendarButtonText: "Add to calendar",
     // 9 words revealed progressively as the wax seal is held down:
-    wordsLine1: ["Friday,", "the", "fourth", "of", "December"],
-    wordsLine2: ["two", "thousand", "twenty", "six"],
+    wordsLine1: ["Friday"],
+    wordsLine2: ["4","-","1","2","-", "2","0","2","6"],
   },
 
   // ----------------------------------------------------------------------------
@@ -89,7 +90,7 @@ export const invitationData = {
         bg: "bg-wine",
       },
       {
-        time: "5:00 pm",
+        time: "6:00 pm",
         title: "The Reception",
         desc: "Welcoming Hazra & Thameem beneath the chandelier",
         bg: "bg-car",
@@ -211,7 +212,7 @@ export const invitationData = {
     ],
     partsLegend: "Which parts will you join?",
     partsOptions: [
-      { val: "Reception", label: "Reception, 5 pm" },
+      { val: "Reception", label: "Reception, 6 pm" },
       { val: "Dinner", label: "Grand Feast" },
       { val: "Celebration", label: "Celebration & blessing" },
     ],
@@ -259,7 +260,7 @@ export const invitationData = {
       later: "We will send you a reminder a week before the wedding.",
     },
     ticketTitle: "Your place at our table",
-    ticketMeta: "Friday, 4 December 2026 · 5 pm\nK hills resort, Farook",
+    ticketMeta: "Friday, 4 December 2026 · 6 pm\nK hills resort, Farook",
     saveTicketButtonText: "Save the ticket to my phone",
     changeReplyButtonText: "Change my reply",
   },
@@ -272,7 +273,7 @@ export const invitationData = {
     items: [
       {
         q: "What is the wedding date and time?",
-        a: "The celebration takes place on Friday, 4 December 2026 starting at 5:00 PM.",
+        a: "The celebration takes place on Friday, 4 December 2026 starting at 6:00 PM.",
       },
       {
         q: "Where is K hills resort located?",
@@ -293,15 +294,15 @@ export const invitationData = {
   // MEDIA ASSET PATHS
   // ----------------------------------------------------------------------------
   media: {
-    audioTrack: "/media/arabic-wedding-nasheed.mp3",
+    audioTrack: "/media/wedding-song.mp3",
     audioTitle: "Barakallahu Lakuma - Islamic Wedding Music",
     introVideo: "/media/film.mp4",
     posterFirst: "/media/film-first.jpg",
     posterLast: "/media/film-last.jpg",
     velvetBg: "/media/velvet-bg.jpg",
     waxSealImg: "/media/seal-red.png",
-    tablePhoto: "/media/table-red.jpg",
-    couplePhoto: "/media/couple-bw-red.jpg",
+    tablePhoto: "/media/khills-resort.jpeg",
+    couplePhoto: "/media/engagement.jpeg",
     petalImg: "/media/petal-red.png",
   },
 

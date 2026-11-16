@@ -142,33 +142,28 @@ export default function App() {
         {/* 3. Wax seal interactive press & date reveal */}
         <WaxSeal />
 
+ {/* 6. Countdown to the wedding */}
+ <DressCode />
+
         {/* 4. The evening itinerary horizontal scroll */}
-        <EveningTimeline />
+       
 
         {/* 5. Palazzo Rosso flashlight spotlight & venue details */}
         <VenueSpotlight />
 
-        {/* 6. Shades of red dress code */}
-        <DressCode />
-
         {/* 7. Swipeable notes deck */}
-        <NotesDeck />
+       
 
-        {/* 8. RSVP response & ticket confirmation */}
-        <RSVPForm
-          defaultGuestName={guestName}
-          onRSVPSubmitted={() => setIsRSVPSent(true)}
-        />
+      
 
-        {/* 9. FAQ accordion */}
-        <FAQ />
+       
 
         {/* 10. Finale with falling petals & vintage portrait */}
         <Finale />
       </main>
 
       {/* Floating RSVP reply button */}
-      <FloatingDock isRSVPSent={isRSVPSent} />
+    
     </div>
   );
 }
